@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  margin: 0;  
+  padding: 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  background-color: #d04242;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 300;
+}
+header > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+ .container {
+    margin: 45px 40px;
+}
+
+article.journal-entry {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+article.journal-entry.marker {
+    width: 10px;
+    margin-right: 4px;
+}
+
+article.journal-entry.main-image-container {
+    width: 12px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+article.journal-entry .main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-container span.country {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+.info-container a {
+    color: #2B283A;
+    font-size: 0.7rem;
+}
+
+.info-container a:visited {
+    color: #918E9B;
+}
+
+.info-container h2.entry-title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.info-container p.trip-dates {
+    font-weight: bold;
+}
+
+.info-container p.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.05);
+  padding: 24px 28px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.09);
+}
+
+.card-image {
+  width: 240px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* color: #d04242; */
+}
+
+.card-country {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #555;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.card-dates {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: #222;
+  line-height: 1.7;
+}
+
+.card-location-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.marker-icon {
+  width: 22px;
+  height: 25px;
+}
+
+.google-maps-link {
+  color: #d04242;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.google-maps-link:hover {
+  color: #a82c2c;
+}
