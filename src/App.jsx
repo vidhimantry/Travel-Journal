@@ -11,11 +11,19 @@ export default function App(){
         country={item.country}
         googleMapsLink={item.googleMapsLink}
         dates={item.dates}
-        text={item.text} //m2: using entry = {entry}, then change props.entry.
-        //m3: use {...entry} then props.img etc will work
+        text={item.text} 
       />
     )
   });
+  function Header(){
+  return(
+    <header className="header">
+      <img src= {globe} alt="globe-icon" />
+      <h1> my travel journal.</h1>
+    </header>
+  )
+}
+
   return(
     <>
       <Header />
@@ -24,12 +32,4 @@ export default function App(){
       </section>
     </>
   ) 
-}
-function Header(){
-  return(
-    <header className="header">
-      <img src= {globe} alt="globe-icon" />
-      <h1> my travel journal.</h1>
-    </header>
-  )
-}
+};
