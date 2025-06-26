@@ -1,6 +1,6 @@
 # 🧳 My Travel Journal
 
-A beautifully designed static React app that showcases a travel journal using visually rich cards, map links, and travel dates — perfect for reminiscing past adventures or inspiring new ones!
+A beautifully designed static React app that showcases a travel journal using visually rich cards, map links, and travel dates — perfect for reminiscing past adventures or inspiring new ones! Each entry includes a destination name, image, travel dates, description, and a link to its location on Google Maps. The app features a clean, card-based layout and adapts seamlessly to both desktop and mobile screens.
 
 ---
 
