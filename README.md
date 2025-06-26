@@ -4,33 +4,12 @@ A beautifully designed static React app that showcases a travel journal using vi
 
 ---
 
-## 🖼️ Screenshots
-
-### 🖥️ Desktop View
-
-#### 📸 Top Half
-![Top Half - Desktop](./screenshots/desktop-top.png)
-
-#### 📸 Bottom Half
-![Bottom Half - Desktop](./screenshots/desktop-bottom.png)
-
----
-
-### 📱 Mobile View
-
-#### 📸 Top
-![Top - Mobile](./screenshots/mobile-top.png)
-
-#### 📸 Bottom
-![Bottom - Mobile](./screenshots/mobile-bottom.png)
----
-
 ## ✨ Features
 
 - 🖼️ Each travel entry includes an image, location, title, date, description, and Google Maps link.
 - 📍 Locations from around the world
 - ❤️ Responsive and clean design
-- 📦 Built using React and CSS (no backend)
+- 📦 Built using React and CSS 
 
 ---
 
@@ -39,6 +18,26 @@ A beautifully designed static React app that showcases a travel journal using vi
 - [React](https://reactjs.org/)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Google Maps Links](https://www.google.com/maps)
+
+---
+
+## 🖼️ Screenshots
+
+### 🖥️ Desktop View
+
+<img src="./screenshots/desktop-top.png" alt="Desktop Top" width="800" height="450"/>
+<img src="./screenshots/desktop-bottom.png" alt="Desktop Top" width="800" height="450"/>
+
+
+---
+
+### 📱 Mobile View
+
+<p>
+  <img src="./screenshots/mobile-top.png" alt="Mobile Top" width="220"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="./screenshots/mobile-bottom.png" alt="Mobile Bottom" width="220"/>
+</p>
 
 ---
 
@@ -62,4 +61,18 @@ npm start
 npm start
 ```
 This will open the app at http://localhost:3000
+
+---
+
+## 🔮 Future Enhancements
+
+The following improvements are planned for future iterations of the project:
+
+- **User Entry Form**: Enable users to create and manage their own travel entries.
+- **Interactive Map Integration**: Display markers for each destination using the Google Maps API.
+- **Theme Support**: Implement light and dark mode toggling for better accessibility and user preference.
+- **Search and Filter Functionality**: Allow users to filter entries by location, date, or keywords.
+- **Progressive Web App (PWA)**: Add offline capabilities and installability on mobile devices.
+- **Backend Connectivity**: Store and retrieve journal entries using a database service such as Firebase or MongoDB.
+
 
