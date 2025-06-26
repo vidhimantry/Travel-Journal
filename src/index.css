@@ -104,6 +104,20 @@ header > img {
   color: #a40000;
 }
 
+.footer {
+    width: 100%;
+    background: #d04242;      
+    color: aliceblue;        
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    border-top: 1px solid #F5F5F5;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.03);
+    margin-top: 2rem;
+}
+
 @media (max-width: 700px) {
   .card {
     flex-direction: column;

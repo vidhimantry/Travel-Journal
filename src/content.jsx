@@ -1,6 +1,16 @@
 import loc from "./images/marker.png";
+import globe from "./images/globe.png";
 
-export default function Content(props) {
+export function Header(){
+  return(
+    <header className="header">
+      <img src= {globe} alt="globe-icon" />
+      <h1> my travel journal.</h1>
+    </header>
+  );
+}
+
+export function Content(props) {
     return (
         <article className="card">
             <img className="card-image" src={props.img.src} alt={props.img.alt} />
@@ -21,5 +31,13 @@ export default function Content(props) {
                 <div className="card-description">{props.text}</div>
             </div>
         </article>
+    );
+}
+
+export function Footer() {
+    return (
+        <footer className="footer">
+            Made with <span style={{color: "white"}}>&hearts;</span> by Vidhi Mantry
+        </footer>
     );
 }
