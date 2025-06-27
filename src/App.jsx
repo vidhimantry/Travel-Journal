@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Header, Content, Footer } from "./content";
-import Data from "./data";
+import Data from "./initialdata";
 
 function getInitialTrips() {
   const saved = localStorage.getItem("trips");
