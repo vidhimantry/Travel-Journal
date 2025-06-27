@@ -25,25 +25,6 @@ An interactive React app that lets users create, view, and delete travel entries
 
 ---
 
-## 🖼️ Screenshots
-
-### 🖥️ Desktop View
-
-<img src="./screenshots/desktop-top.png" alt="Desktop Top" width="800" height="450"/>
-<img src="./screenshots/desktop-bottom.png" alt="Desktop Top" width="800" height="450"/>
-
-
----
-
-### 📱 Mobile View
-
-<p>
-  <img src="./screenshots/mobile-top.png" alt="Mobile Top" width="220"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="./screenshots/mobile-bottom.png" alt="Mobile Bottom" width="220"/>
-</p>
-
----
 
 ## 🚀 Getting Started
 
